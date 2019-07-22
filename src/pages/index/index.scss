@@ -1,0 +1,37 @@
+.index{
+    display: flex;
+    flex-direction: column;
+    .row{
+        display:flex;
+        flex-direction: row;
+        .row-item{
+            width: 50px;
+            height: 200px;
+            flex: auto;
+            background: yellow;
+        }
+        .row-item2{
+            background: green;
+        }
+        .row-item3{
+            background: blue;
+        }
+    }
+    .column{
+        display:flex;
+        flex-direction: column;
+        .column-item{
+            width: 50px;
+            height: 500px;
+            flex: auto;
+            background: yellow;
+        }
+        .column-item2{
+            background: green;
+        }
+        .column-item3{
+            background: blue;
+        }
+    }
+    
+}
