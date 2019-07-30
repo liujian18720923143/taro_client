@@ -1,8 +1,10 @@
-import Taro, { Component } from '@tarojs/taro'
-import Index from './pages/index'
+import Taro, { Component } from '@tarojs/taro';
+import Index from './pages/index';
+import { Provider } from '@tarojs/redux';
+import configStore from './store';
 
-import './app.scss'
-import { black } from '_ansi-colors@3.2.4@ansi-colors';
+import './app.scss';
+import { from } from '_array-flatten@2.1.2@array-flatten';
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
@@ -10,15 +12,17 @@ import { black } from '_ansi-colors@3.2.4@ansi-colors';
 //   require('nerv-devtools')
 // }
 
+const store=configStore();
+
 class App extends Component {
 
   config = {
     pages: [
       'pages/index/index',
-      'pages/swiper/swiper',
-      'pages/icon/icon',
-      'pages/text/text',
-      'pages/shop/shop'
+      'pages/menu/menu',
+      'pages/find/find',
+      'pages/cart/cart',
+      'pages/self/self'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -27,26 +31,40 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     },
     tabBar:{
-      color: 'black',
-      selectedColor: 'red',
-      backgroundColor: '#999',
+      color: '#999',
+      selectedColor: '#333',
+      backgroundColor: '#fff',
       borderStyle: 'black',
       list:[
         {
-          "pagePath": 'pages/index/index',
-          "text": '首页'
-        },{
-          "pagePath": 'pages/shop/shop',
-          "text": '商品'
-        },{
-          "pagePath": 'pages/swiper/swiper',
-          "text": '轮播'
-        },{
-          "pagePath": 'pages/icon/icon',
-          "text": '图标'
-        },{
-          "pagePath": 'pages/text/text',
-          "text": '文字'
+          pagePath: 'pages/index/index',
+          text: '首页',
+          iconPath: '../assets/home.png',
+          selectedIconPath: '../assets/home_selected.png'
+        },
+        {
+          pagePath: 'pages/cart/cart',
+          text: '购物车',
+          iconPath: '../assets/cart.png',
+          selectedIconPath: '../assets/cart_selected.png'
+        },
+        {
+          pagePath: 'pages/menu/menu',
+          text: '订单列表',
+          iconPath: '../assets/list.png',
+          selectedIconPath: '../assets/list_selected.png'
+        },
+        {
+          pagePath: 'pages/self/self',
+          text: '我的淘宝',
+          iconPath: '../assets/touxiang.png',
+          selectedIconPath: '../assets/touxiang_selected.png'
+        },
+        {
+          pagePath: 'pages/find/find',
+          text: '更多',
+          iconPath: '../assets/more.png',
+          selectedIconPath: '../assets/more_selected.png'
         }
       ]
     }
@@ -55,7 +73,9 @@ class App extends Component {
   // 请勿修改此函数
   render () {
     return (
-      <Index />
+      <Provider store={store}>
+        <Index />
+      </Provider>
     )
   }
 }

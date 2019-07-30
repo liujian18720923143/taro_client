@@ -1,0 +1,26 @@
+.cart{
+  overflow: auto;
+  width: 100%;
+  .header{
+    width: 100%;
+    max-width: 750px;
+    height: 180Px;
+    padding: 20Px 12Px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #ff8400 0%, #ff5000 100%);
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    .headerLeft{
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      .count{
+        font-size: 12px;
+      }
+    }
+  }
+}

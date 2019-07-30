@@ -1,0 +1,96 @@
+{
+  "shop":[
+    { 
+      "name":"南方寝饰家纺旗舰",
+      "logo":"https://gw.alicdn.com/tfs/TB1hDVeDMTqK1RjSZPhXXXfOFXa-32-32.png_50x50_.webp",
+      "Securities":"领劵",
+      "commodity":[{
+        "name":"南方寝饰冰丝凉席三件套1.8m床1.5米夏季折叠席子1.2单人学生宿舍",
+        "img":"https://img.alicdn.com/bao/uploaded/i4/719997927/O1CN01pluNU228Qc7AlTGTe_!!719997927.jpg_80x80.jpg",
+        "attribute":{
+          "count":"344",
+          "price": 189,
+          "current":[3,5],
+          "key":["适用床尺寸","颜色分类"],
+          "value":[["2.0m（6.6英尺）床","1.2m（4英尺）床","0.9m床","1.8m（6英尺）床","1.5m（5英尺）床"],["贵族（升级加厚加密）","格调（升级加厚加密）","布拉格（升级加厚加密）","海之恋（升级加厚加密）","天野（升级加厚加密）","印心（升级加厚加密）","花韵（升级加厚加密）","谜梦（升级加厚加密）", "彼得堡（升级加厚加密）", "布拉格（升级加厚加密）", "花语（升级加厚加密）", "杏仙（升级加厚加密）", "卡宾（升级加厚加密）", "海之恋（升级加厚加密）", "莫妮卡（升级加厚加密）","窗外（升级加厚加密）", "格调（升级加厚加密）", "宫雾（升级加厚加密）", "印⼼（升级加厚加密）", "夕颜花开（升级加厚加密）"]]
+        }
+      }]
+    },
+    {
+      "name":"骆驼男装旗舰店",
+      "logo":"https://gw.alicdn.com/tfs/TB1hDVeDMTqK1RjSZPhXXXfOFXa-32-32.png_50x50_.webp",
+      "Securities":"",
+      "commodity":[
+        {
+          "name":"Camel/骆驼腰带男⼠⽜⽪⾃动扣⽪带男中⻘年商务时尚休闲裤带男",
+          "img":"https://img.alicdn.com/bao/uploaded/i1/839919086/TB2f04izsuYBuNkSmRyXXcA3pXa_!!839919086.jpg_80x80.jpg",
+          "attribute":{
+            "count":"250",
+            "price": 59,
+            "current":[1,2],
+            "key":["尺码","颜色分类"],
+            "value":[["105cm","110cm","115cm", "120cm", "125cm", "130cm"],["DF193408-01时尚⿊⾊","DF193408-02商务⿊⾊","DF193408-03经典⿊⾊","DF193408-04潮流⿊⾊","DF193408-05线纹⿊⾊","DF193408-06个性⿊⾊","DF193408-07奢华⿊⾊","DF193408-08多变⿊⾊", "DF193408-09优雅⿊⾊", "DF193408-10质感⿊⾊", "DF193408-11⼤⽓⿊⾊", "DF193408-12幻影⿊⾊", "DF193408-13磨砂⿊⾊", "DF193408-14⾦刚⿊⾊", "DF193408-15钢质韵⿊","DF193408-16线纹啡⾊", "DF193408-17质感啡⾊", "DF193408-19 ⿊⾊", "DF193408-20⿊⾊", "DF193408-21 ⿊⾊"]]
+          }
+        }
+      ]
+    },
+    { 
+      "name":"邦顿骏钰专卖店",
+      "logo":"https://gw.alicdn.com/tfs/TB1hDVeDMTqK1RjSZPhXXXfOFXa-32-32.png_50x50_.webp",
+      "Securities":"领劵",
+      "commodity":[
+        {
+          "name":"邦顿⼿表男⼠潮机械表全⾃动男⽣防⽔镂空真⽪带名牌男表2019新款",
+          "img":"https://img.alicdn.com/bao/uploaded/i4/1720919900/O1CN012N0FWJTlHKGpc8T_!!1720919900.jpg_80x80.jpg",
+          "attribute":{
+            "count":"973",
+            "price": 428,
+            "current":[1],
+            "key":["颜色分类"],
+            "value":[["玫壳⿊⾯棕带(送⽪表带+精美⼿串)11", "玫壳蓝⾯蓝带(送⽪表带+精美⼿串)11", "玫壳⽩⾯棕带(送⽪表带+精美⼿串)11", "⽩壳⿊⾯⿊带(送⽪表带+精美⼿串)11", "⽩壳⽩⾯⿊⽪带(送皮表带+精美手串)11"]]
+          }
+        },
+        {
+          "name":"邦顿⼿表男⼠潮机械表全⾃动男⽣防⽔镂空真⽪带名牌男表2019新款",
+          "img":"https://img.alicdn.com/bao/uploaded/i2/1720919900/O1CN012N0FWI4wGPLjsc7_!!1720919900.jpg_80x80.jpg",
+          "attribute":{
+            "count":"1232",
+            "price": 428,
+            "current":[2],
+            "key":["颜色分类"],
+            "value":[["玫壳⿊⾯棕带(送⽪表带+精美⼿串)11", "玫壳蓝⾯蓝带(送⽪表带+精美⼿串)11", "玫壳⽩⾯棕带(送⽪表带+精美⼿串)11", "⽩壳⿊⾯⿊带(送⽪表带+精美⼿串)11", "⽩壳⽩⾯⿊⽪带(送皮表带+精美手串)11"]]
+          }
+        }
+      ]
+    },
+    { 
+      "name":"宾卡达⼿表官⽅直",
+      "logo":"//gtms04.alicdn.com/tps/i4/TB1x4ExHVXXXXalXFXXSutbFXXX.jpg",
+      "Securities":"领劵",
+      "commodity":[
+        {
+          "name":"瑞⼠正品宾卡达⼿表男⼠全⾃动机械表镂空潮防⽔时尚2019新款男表",
+          "img":"https://img.alicdn.com/bao/uploaded/i1/2624016181/TB2eko9xh9YBuNjy0FfXXXIsVXa_!!2624016181.png_80x80.jpg",
+          "attribute":{
+            "count":"1232",
+            "price": 428,
+            "current":[3],
+            "key":["颜色分类"],
+            "value":[["本⾊⿊⾯", "本⾊⽩⾯", "本⾊蓝⾯", "间⾦蓝⾯", "间⾦⿊⾯", "间⾦⽩⾯"]]
+          }
+        },
+        {
+          "name":"瑞⼠正品宾卡达⼿表男⼠全⾃动机械表镂空潮防⽔时尚2019新款男表",
+          "img":"https://img.alicdn.com/bao/uploaded/i1/2624016181/TB2RVwPxkOWBuNjSsppXXXPgpXa_!!2624016181.png_80x80.jpg",
+          "attribute":{
+            "count":"1232",
+            "price": 428,
+            "current":[2],
+            "key":["颜色分类"],
+            "value":[["本⾊⿊⾯", "本⾊⽩⾯", "本⾊蓝⾯", "间⾦蓝⾯", "间⾦⿊⾯", "间⾦⽩⾯"]]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+.masks{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 900;
+ 
+  .mask{
+    background:rgba(0,0,0,0.2);
+    width: 750px;
+    margin: 0 auto;
+    height: 100%;
+    
+    .bottom{
+      position: absolute;
+      bottom: 0px;
+      width: 750px;
+      height: 80%;
+      background: #fff;
+      .head{
+        height: 240px;
+        display: flex;
+        box-sizing: border-box;
+        padding: 12Px;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        .imgs{
+          width: 105Px;
+          height: 105Px;
+          flex-grow: 0;
+          .img{
+            width: 105Px;
+            height: 105Px;
+          }
+        }
+        .current{
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          margin-left: 12px;
+          align-items: flex-start;
+          .cancel{
+            align-self: flex-end;
+          }
+          .price{
+            color: rgb(255,85,0)
+          }
+        }
+      }
+      .attrs{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 100px;
+        margin: 12Px;
+        font-size: 14Px;
+        overflow-y: auto;
+        .attribute{
+          display: flex;
+          flex-direction: row;
+          font-size: 12Px;
+          color: rgb(51,51,51);
+          flex-wrap: wrap;
+          margin-top:14Px;
+          .allAttr{
+            background: #eee;
+            padding: 12Px;
+            border-radius: 30Px;
+            margin: 0 14Px 14Px 0;
+          }
+          .currentAttr{
+            background: rgb(255, 122, 0);
+            color: #fff;
+          }
+        }
+      }
+      
+      .btns{
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        box-sizing: border-box;
+        background: #fff;
+        .btn{
+          margin: 0 12px 20px 12px;
+          border-radius: 40px;
+          height: 80px;
+          width: 726px;
+          line-height: 80px;
+          text-align: center;
+          color: #fff;
+          background: rgb(255, 122, 0);
+        }
+      }
+    }
+  }
+  
+}

@@ -1,15 +1,15 @@
 import Taro, { Component } from '@tarojs/taro'
 import { Text, View } from '@tarojs/components'
 
-export default class Index extends Component {
+export default class Find extends Component {
   config = {
-    navigationBarTitleText: 'index'
+    navigationBarTitleText: 'find'
   }
   render () {
     return (
-      <View className='demo-text-3'>
+      <View>
         <Text>
-          首页
+          发现
         </Text>
       </View>
     )
